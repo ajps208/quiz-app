@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px) {
+    .img1 {
+      width: 150px;
+      top: 50px;
+    }
+    .col1{
+        position: relative;
+        height: 40%;
+        width: 100%;
+    }
+   .headdiv{
+    margin-top: -100px;
+    width:70%;
+    margin-left:-60px;
+   }
+   .headdiv img{
+    width: 150px;
+   }
+   .img2{
+    visibility: hidden;;
+   }
+   .img3{
+    visibility: hidden;;
+    width:150px;
+   }
+   /* .col2{
+    width: 100%;
+   } */
+   .sdiv{
+    height: 100%;
+   }
+  }
