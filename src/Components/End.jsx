@@ -7,7 +7,7 @@ function End() {
   const score=useSelector((state)=>state.scoreSlice.score)
   const dispatch = useDispatch();
   useEffect(() => {
-    if (score >= 5) {
+    if (score >= 6) {
       dispatch(setCelbration()); // Correct dispatching of the action
     }
   }, [score, dispatch]);

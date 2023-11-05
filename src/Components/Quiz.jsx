@@ -92,7 +92,7 @@ function Quiz() {
   }, [questions, index, clickStatus, countdown]);
 
   return (
-    <div className="mt-5 d-flex w-100 flex-column justify-content-center align-items-center">
+    <div className="mt-4 d-flex w-100 flex-column justify-content-center align-items-center">
       {questions ? (
         <>
           <div className="d-flex  justify-content-evenly w-100  align-items-center">
@@ -116,7 +116,7 @@ function Quiz() {
           {answerStatus === 'correct' && <p className="mt-3 fw-bolder text-success">Correct Answer 😊</p>}
           {answerStatus === 'wrong' && <p className="mt-3 fw-bolder text-danger">Wrong Answer 😔</p>}
           {answerStatus === 'timeout' && <p className="mt-3 fw-bolder text-warning">Time's up 😟</p>}
-          <div className="w-100 mt-4 d-flex flex-column ms-4 align-items-start">
+          <div className="w-100 mt-5 pt-3 d-flex flex-column ms-4 align-items-start">
             <h5>Instructions:</h5>
             <p className="fst-italic">Make sure to choose an answer for each question. After each question, there will be a short 3-second delay!</p>
             <p className="fst-italic">Quickly answer the question within the 10-second countdown.</p>
